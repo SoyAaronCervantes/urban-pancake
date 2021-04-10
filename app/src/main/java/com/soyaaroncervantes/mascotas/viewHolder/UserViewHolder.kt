@@ -15,6 +15,7 @@ class UserViewHolder( view: View): RecyclerView.ViewHolder( view ) {
         binding.price.text = "$ ${ user.price }"
         binding.country.text = "${user.country},"
         binding.state.text = user.state
+        binding.description.text = user.description
         Picasso.get().load( "https://picsum.photos/1000/1000" ).into( binding.photo )
 
     }

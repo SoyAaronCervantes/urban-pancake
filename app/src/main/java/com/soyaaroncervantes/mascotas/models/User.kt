@@ -12,5 +12,6 @@ data class User(
     val price: String,
     val country: String,
     val state: String,
+    val description: String,
     val email: String
 )
